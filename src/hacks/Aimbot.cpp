@@ -172,6 +172,27 @@ bool shouldBacktrack(CachedEntity *ent)
     return true;
 }
 
+// Reduce Backtrack lag by checking if the ticks hitboxes are within a reasonable FOV range
+bool validateTickFOV(tf2::backtrack::BacktrackData &tick)
+{
+    if (fov)
+    {
+        bool valid_fov = false;
+        for (auto &hitbox : tick.hitboxes)
+        {
+            float score = GetFov(g_pLocalPlayer->v_OrigViewangles, g_pLocalPlayer->v_Eye, hitbox.center);
+            // Check if the FOV is within a 2.0f threshhold
+            if (score < fov + 2.0f)
+            {
+                valid_fov = true;
+                break;
+            }
+        }
+        return valid_fov;
+    }
+    return true;
+}
+
 // Am I holding Hitman's Heatmaker ?
 static bool CarryingHeatmaker()
 {
@@ -515,6 +536,8 @@ CachedEntity *RetrieveBestTarget(bool aimkey_state)
                 if (good_ticks)
                     for (auto &bt_tick : *good_ticks)
                     {
+                        if (!validateTickFOV(bt_tick))
+                            continue;
                         hacks::tf2::backtrack::MoveToTick(bt_tick);
                         if (IsTargetStateGood(target_last))
                             return target_last;
@@ -552,6 +575,8 @@ CachedEntity *RetrieveBestTarget(bool aimkey_state)
             if (good_ticks)
                 for (auto &bt_tick : *good_ticks)
                 {
+                    if (!validateTickFOV(bt_tick))
+                        continue;
                     hacks::tf2::backtrack::MoveToTick(bt_tick);
                     if (IsTargetStateGood(ent))
                     {
