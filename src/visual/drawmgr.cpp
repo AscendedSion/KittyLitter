@@ -81,7 +81,7 @@ void DrawCheatVisuals()
         {
             auto color = colors::RainbowCurrent();
             color.a    = 1.0f;
-            AddSideString("cathook by nullworks", color);
+            AddSideString("-KittyLitter Beta-", color);
             if (!info_text_min)
             {
                 AddSideString(hack::GetVersion(),
