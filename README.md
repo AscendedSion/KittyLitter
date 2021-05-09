@@ -35,8 +35,8 @@ and a lot of useful features, including
 [FULL LIST OF FEATURES HERE](https://cathook.club/wikis/Feature-List-and-explanations)
 
 # Installing, updating, attaching (injecting)
-
-[View our short guide to installing and using cathook](https://cathook.club/wikis/Installing,-Attaching-And-General-Infos)
+`sudo ./attach`
+in the kittylitter directory.
 
 ## Community
 You can chat with other cathook users in [our official Telegram group](https://t.me/joinchat/V03iMDYqQaIxY2M0) and the [cathook announcements channel](https://t.me/cathook_cheat).
