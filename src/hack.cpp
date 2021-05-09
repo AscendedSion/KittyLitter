@@ -2,7 +2,7 @@
  * hack.cpp
  *
  *  Created on: Oct 3, 2016
- *      Author: nullifiedcat
+ *      Author: AscendedSION (KittyLitter Owner)
  */
 
 #define __USE_GNU
