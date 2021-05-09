@@ -1,4 +1,4 @@
-# Cathook Training Software
+# KittyLitter Training Software
 ![banner](https://i.imgur.com/8GfjwPd.png)
 [![CircleCI](https://circleci.com/gh/nullworks/cathook.svg?style=svg)](https://circleci.com/gh/nullworks/cathook)
 
@@ -12,11 +12,11 @@ The software could be detected by VAC in the future. Only use it on accounts you
 
 ## Overview
 
-Cathook is a training software designed for Team Fortress 2 for Linux. Cathook includes some joke features like
+KittyLitter is a training software designed for Team Fortress 2 for Linux. Cathook includes some joke features like
 
 * Ignore Hoovy
 * Encrypted chat
-* Nullnexus Support (Find other Cathook users in-game automatically)
+* Nullnexus Support (Find other KittyLitter users in-game automatically)
 * Sandvich aimbot
 * Chance to get manually VAC banned by Valve
 
