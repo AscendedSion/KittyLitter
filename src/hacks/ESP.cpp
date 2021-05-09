@@ -4,7 +4,7 @@
  *  Created on: Oct 6, 2016
  *      Author: AscendedSION
  */
-// of course the esp is pasted too, its just my style. paste paste paste.
+// of course the esp is pasted too, its just my style. paste paste paste!
 
 #include <hacks/ESP.hpp>
 #include <PlayerTools.hpp>
