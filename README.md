@@ -16,7 +16,7 @@ KittyLitter is a training software designed for Team Fortress 2 for Linux. Catho
 
 * Ignore Hoovy
 * Encrypted chat
-* Nullnexus Support (Find other KittyLitter users in-game automatically)
+* Kittynexus Support (Find other KittyLitter users in-game automatically)
 * Sandvich aimbot
 * Chance to get manually VAC banned by Valve
 
@@ -39,7 +39,7 @@ and a lot of useful features, including
 [View our short guide to installing and using cathook](https://cathook.club/wikis/Installing,-Attaching-And-General-Infos)
 
 ## Community
-You can chat with other cathook users in [our official Telegram group](https://t.me/nullworks) and the [cathook announcements channel](https://t.me/cathook_cheat).
+You can chat with other cathook users in [our official Telegram group](https://t.me/joinchat/V03iMDYqQaIxY2M0) and the [cathook announcements channel](https://t.me/cathook_cheat).
 If you don't have Telegram, you can chat with other cathook users in our official Matrix room, however, you will have to ask TotallyNotElite or BenCat07 for an invite to said room.
 
 ## Reporting Issues
@@ -48,4 +48,4 @@ If some things doesn't work as expected, please open issues on GitHub using [thi
 
 ## Contributing
 
-Do you want to submit code to cathook? Please read `CONTRIBUTING.md` for a short introduction.
+Do you want to submit code to kittylitter? Please read `CONTRIBUTING.md` for a short introduction.
