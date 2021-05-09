@@ -1,5 +1,5 @@
 # Cathook Training Software
-![banner](http://i.imgur.com/w96wdtE.png)
+![banner](https://i.imgur.com/8GfjwPd.png)
 [![CircleCI](https://circleci.com/gh/nullworks/cathook.svg?style=svg)](https://circleci.com/gh/nullworks/cathook)
 
 ## Moving back to GitHub
