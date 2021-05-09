@@ -19,11 +19,11 @@
             <AutoVariable width="fill" target="aimbot.debug.engine-pp" label="Debug engine PP"/>
         </List>
     </Box>
-    <Box height="content" width="content" padding="12 6 6 6" name="Cathook" x="215">
+    <Box height="content" width="content" padding="12 6 6 6" name="Kittylitter-beta" x="215">
         <List width="150">
-            <AutoVariable width="fill" target="hack.enable" label="Enable Cathook" tooltip="WARNING: Advanced users only."/>
-            <AutoVariable width="fill" target="hack-info.enable" label="Enable Cathook label" tooltip="Controls text at top left of screen."/>
-            <AutoVariable width="fill" target="hack-info.minimal" label="Minimal Cathook label" tooltip="Only show the rainbow text in the label."/>
+            <AutoVariable width="fill" target="hack.enable" label="Enable Kittylitter-beta" tooltip="WARNING: Advanced users only."/>
+            <AutoVariable width="fill" target="hack-info.enable" label="Enable Kittylitter label" tooltip="Controls text at top left of screen."/>
+            <AutoVariable width="fill" target="hack-info.minimal" label="Minimal Kittylitter label" tooltip="Only show the rainbow text in the label."/>
         </List>
     </Box>
 </Tab>
